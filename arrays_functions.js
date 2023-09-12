@@ -17,7 +17,8 @@ var myData = newArray[0];
 
 newArray[2] = 69;
 
-newArray.push(90);
+let v = newArray.push(90);
+console.log(v) //  returns new array's length
 console.log(newArray);
 
 var removed = newArray.pop();
