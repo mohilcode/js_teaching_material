@@ -26,7 +26,8 @@ console.log(removed);
 var removed = newArray.shift();
 console.log(removed);
 
-newArray.unshift(420);
+let r = newArray.unshift(420);
+console.log(r) //  returns new array's length
 console.log(newArray);
 
 var myList = [["cereal", 3], ["milk",2], ["bananas",3]]
