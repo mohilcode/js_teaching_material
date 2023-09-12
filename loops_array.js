@@ -4,6 +4,10 @@ num.forEach((element)=>{
 	console.log(element*element)
 })
 
+num.forEach(function(element, idx, arr) { // can take three parameters
+	console.log(idx, element*element, arr)
+})
+
 //Array from
 let name = "Harry"
 let arr = Array.from(name) // makes an array
