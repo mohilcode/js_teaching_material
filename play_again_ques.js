@@ -12,6 +12,10 @@ while(b){
         alert("You can drive")
     }
     else{
+        if(age<0){
+            console.error("Enter a valid age")
+            break;
+        }
         alert("You can not Drive")
     }
 
