@@ -27,7 +27,7 @@ async function harry (){
 
 console.log("Welcome to weather control room")
 
-const cherry = () =>{
+const cherry = async () =>{
     console.log("This is cherry function")
 }
 
